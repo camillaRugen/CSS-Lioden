@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Gaegu&family=Neonderthaw&display=swap');
+:root{
+    --color-0: #ffffff;
+    --color-1: #f6d593;
+    --color-2: #7f8f75;
+    --color-3: #284139;
+    --color-4: #1C3321FF;
+
+    --tcolor-0: rgba(255, 255, 255, 0.4);
+    --tcolor-1: rgba(246, 213, 147, 0.4);
+    --tcolor-2: rgba(127, 143, 117, 0.4);
+    --tcolor-3: rgba(40, 65, 57, 0.4);
+    --tcolor-4: rgba(28, 51, 33, 0.4);
+
+    --tcolor-5: rgba(255, 255, 255, 0.7);
+    --tcolor-6: rgba(246, 213, 147, 0.7);
+    --tcolor-7: rgba(127, 143, 117, 0.7);
+    --tcolor-8: rgba(40, 65, 57, 0.7);
+    --tcolor-9: rgba(28, 51, 33, 0.7);
+
+    --font-1: "Neonderthaw";
+    --font-2: "Gaegu";
+    --font-3: "Akaya Telivigala";
+}
+
+body {
+    background: url(https://images.pexels.com/photos/34005446/pexels-photo-34005446.jpeg) fixed center;
+    background-size: cover;
+    font-family: var(--font-2);
+}
+
+/*topbar*/
+
+.container.topbar {
+    color: var(--color-0);
+    background: var(--tcolor-8);
+    border: solid 2px var(--tcolor-2);
+    font-family: var(--font-3);
+    font-size: 16px;
+}
+
+.container.topbar a {
+    color: var(--color-1);
+    font-weight: 100;
+    transition: font-size 0.5s ease, background 0.5s ease;
+}
+
+.container.topbar a:hover {
+    background: linear-gradient(45deg, var(--tcolor-1), transparent);
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+
+/*navbar and chat*/
+.container.main {
+    background: var(--tcolor-8);
+    border: solid 2px var(--tcolor-2);
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+nav.navbar.navbar-default {
+    border-bottom: solid 2px var(--tcolor-2);
+    background: var(--tcolor-3);
+    font-family: var(--font-3);
+}
+
+nav.navbar.navbar-default a {
+    color: var(--color-1);
+    font-weight: 100;
+}
+
+ul.nav.navbar-nav.visible-xs.visible-sm.visible-md.smaller-nav a:hover {
+    background: linear-gradient(336deg, var(--tcolor-1), transparent);
+    padding: 13px 20px;
+    border-radius: 10px;
+    color: var(--tcolor-6);
+}
+
+/*logo*/
+div.container.main > div:nth-child(1) > nav > div.navbar-header > a > img {
+    margin-left: -15px;
+    position: relative !important;
+    width: 100px !important;
+    height: 100px !important;
+    content: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdzBpOW93MXdwc3Z1NzQ2ZnpwMWxkMGQyN295czYxdGJ1dG81cDF4MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/MaZmW8sC79lDheYDph/giphy.gif);
+}
+
+.col-md-3 {
+    background: var(--tcolor-9);
+}
+
+.panel {
+    box-shadow: none !important;
+    border: solid 2px var(--tcolor-9) !important;
+    background: var(--tcolor-4) !important;
+    color: var(--color-2);
+}
+
+.panel a {
+    color: var(--tcolor-6);
+}
+
+.panel a:hover {
+    color: var(--color-1);
+}
+
+.panel-body.small {
+    box-shadow: none;
+    background: none !important;
+}
+
+
+/*page*/
+div#pageContainer {
+    background: none;
+    border-right: solid 2px var(--tcolor-2);
+}
+
+
+
+
+
+
+
+
+
+
+
+.breadcrumb::after {
+    content: "CSS от Polaris Penumbra (#419566)";
+    position: absolute;
+    right: 20%;
+    z-index: 100;
+    color: var(--color-1);
+}
