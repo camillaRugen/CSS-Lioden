@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+:root {
+    --color-1: #1d1d3f;
+    --color-2: #2c2b66;
+    --color-3: #4c57a9;
+    --color-4: #6787d1;
+    --color-5: #90abd5;
+    --color-6: #badaf5;
+    --color-7: #ffffff;
+
+    --tcolor-1: rgba(29, 29, 64, 0.4);
+    --tcolor-2: rgba(44, 43, 102, 0.4);
+    --tcolor-3: rgba(76, 87, 168, 0.4);
+    --tcolor-4: rgba(102, 134, 209, 0.4);
+    --tcolor-5: rgba(146, 172, 214, 0.4);
+    --tcolor-6: rgba(186, 218, 245, 0.4);
+    --tcolor-7: rgba(255, 255, 255, 0.4);
+    
+    --font-1: "Science Gothic";
+    --font-2: "Space Grotesk";
+}
+
+/*body*/
+body {
+    font-family: var(--font-2);
+    background: url(https://images.pexels.com/photos/30185578/pexels-photo-30185578.jpeg) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 13px;
+}
